@@ -55,13 +55,16 @@ export function StickyNavbar() {
                   <span>Log In</span>
                 </Button>
               </Link>
+              <Link to="/signup">
               <Button
                 variant="gradient"
                 size="sm"
                 className="hidden lg:inline-block"
               >
-                <span>Sign in</span>
+                <span>Sign Up</span>
               </Button>
+              </Link>
+             
             </div>
             <IconButton
               variant="text"
