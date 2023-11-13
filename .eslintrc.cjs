@@ -9,13 +9,7 @@ module.exports = {
   },
 
   plugins: ['react', '@typescript-eslint'],
-  extends: [
-    'eslint:recommended',
-    'plugin:react/recommended',
-    'airbnb',
-    'plugin:@typescript-eslint/recommended',
-    'plugin:prettier/recommended',
-  ],
+  extends: ['eslint:recommended', 'plugin:react/recommended', 'airbnb', 'plugin:@typescript-eslint/recommended', 'plugin:prettier/recommended'],
   env: {
     browser: true,
     es2021: true,
@@ -74,10 +68,7 @@ module.exports = {
 
     // React
     'react/jsx-filename-extension': [2, { extensions: ['.ts', '.tsx'] }],
-    'react/function-component-definition': [
-      2,
-      { namedComponents: 'arrow-function' },
-    ],
+    'react/function-component-definition': [2, { namedComponents: 'arrow-function' }],
 
     // ignore import React from "react"
     'react/react-in-jsx-scope': 'off',

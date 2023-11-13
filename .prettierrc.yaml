@@ -1,0 +1,21 @@
+{
+  # 따옴표를 작은 따옴표로 변환
+  "singleQuote": true,
+
+  # 마지막에 콤마를 찍을지
+  "trailingComma": "all",
+
+  # 코드 끝에 세미콜론
+  "semi": true,
+
+  # tab 사용여부
+  "useTabs": false,
+
+  # tab 크기
+  "tabWidth": 2,
+
+  # 줄 최대길이
+  "printWidth": 150,
+  "arrowParens": "always"
+}
+
