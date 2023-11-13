@@ -4,8 +4,7 @@ import {
   MobileNav,
   Typography,
   Button,
-  IconButton,
-  Card
+  IconButton
 } from '@material-tailwind/react';
 import { Link } from 'react-router-dom';
 
