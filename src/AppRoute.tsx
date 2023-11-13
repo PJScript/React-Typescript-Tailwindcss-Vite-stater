@@ -3,7 +3,7 @@ import PAGE_LIST from './routes';
 import { Route, Routes } from 'react-router-dom';
 const AppRoute = () => {
   console.log('test');
-
+  const a = 0;
   return (
     <>
       <StickyNavbar />
