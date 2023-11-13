@@ -1,9 +1,10 @@
-import { StickyNavbar } from './components/mt/StickyNav';
-import PAGE_LIST from './routes';
 import { Route, Routes } from 'react-router-dom';
-const AppRoute = () => {
+import StickyNavbar from './components/mt/StickyNav';
+import PAGE_LIST from './routes';
+
+const AppRoute: () => JSX.Element = () => {
   console.log('test');
-  const a = 0;
+
   return (
     <>
       <StickyNavbar />

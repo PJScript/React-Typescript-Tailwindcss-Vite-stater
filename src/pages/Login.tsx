@@ -1,5 +1,5 @@
-const Login = () => {
-    return <div>Login</div>
-}
+const Login = (): JSX.Element => {
+  return <div>Login</div>;
+};
 
-export default Login
+export default Login;

@@ -1,20 +1,20 @@
-import React from 'react';
 import {
-  Navbar,
-  MobileNav,
-  Typography,
   Button,
-  IconButton
+  IconButton,
+  MobileNav,
+  Navbar,
+  Typography,
 } from '@material-tailwind/react';
+import React from 'react';
 import { Link } from 'react-router-dom';
 
-export function StickyNavbar() {
+const StickyNavbar = (): JSX.Element => {
   const [openNav, setOpenNav] = React.useState(false);
 
   React.useEffect(() => {
     window.addEventListener(
       'resize',
-      () => window.innerWidth >= 960 && setOpenNav(false)
+      () => window.innerWidth >= 960 && setOpenNav(false),
     );
   }, []);
 
@@ -68,7 +68,7 @@ export function StickyNavbar() {
               variant="text"
               className="ml-auto h-6 w-6 text-inherit hover:bg-transparent focus:bg-transparent active:bg-transparent lg:hidden"
               ripple={false}
-              onClick={() => setOpenNav(!openNav)}
+              onClick={(): void => setOpenNav(!openNav)}
             >
               {openNav ? (
                 <svg
@@ -117,4 +117,6 @@ export function StickyNavbar() {
       </Navbar>
     </div>
   );
-}
+};
+
+export default StickyNavbar;

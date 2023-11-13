@@ -1,12 +1,7 @@
-import AppRoute from './AppRoute'
-import Nav from './components/Nav'
-import NavWithDropDown from './components/NavWithDropDown'
-import { StickyNavbar } from './components/mt/StickyNav'
-const App = () => {
+import AppRoute from './AppRoute';
 
-  return (
-    <AppRoute />
-  )
-}
+const App = (): JSX.Element => {
+  return <AppRoute />;
+};
 
-export default App
+export default App;

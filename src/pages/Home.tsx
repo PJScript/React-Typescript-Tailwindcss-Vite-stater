@@ -1,4 +1,4 @@
-const Home = () => {
-    return<div>Home</div>
-}
-export default Home
+const Home = (): JSX.Element => {
+  return <div>Home</div>;
+};
+export default Home;

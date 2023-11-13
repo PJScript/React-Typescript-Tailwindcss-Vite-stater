@@ -1,6 +1,5 @@
-const SignUp = () =>{
+const SignUp = (): JSX.Element => {
+  return <div>Sign up</div>;
+};
 
-    return <div>Sign up</div>
-}
-
-export default SignUp
+export default SignUp;
