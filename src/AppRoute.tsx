@@ -2,6 +2,7 @@ import { StickyNavbar } from './components/mt/StickyNav';
 import PAGE_LIST from './routes';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 const AppRoute = () => {
+  console.log('test')
   return (
     <>
       <StickyNavbar />
