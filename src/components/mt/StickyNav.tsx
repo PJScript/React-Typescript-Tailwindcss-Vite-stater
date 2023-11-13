@@ -1,20 +1,20 @@
-import React from "react";
+import React from 'react';
 import {
   Navbar,
   MobileNav,
   Typography,
   Button,
   IconButton,
-  Card,
-} from "@material-tailwind/react";
-import { Link } from "react-router-dom";
+  Card
+} from '@material-tailwind/react';
+import { Link } from 'react-router-dom';
 
 export function StickyNavbar() {
   const [openNav, setOpenNav] = React.useState(false);
 
   React.useEffect(() => {
     window.addEventListener(
-      "resize",
+      'resize',
       () => window.innerWidth >= 960 && setOpenNav(false)
     );
   }, []);
@@ -43,7 +43,7 @@ export function StickyNavbar() {
             </Typography>
           </Link>
 
-          <div className="flex items-center gap-4">
+          <div className="items-center gap-4 flex">
             <div className="mr-4 hidden lg:block">{navList}</div>
             <div className="flex items-center gap-x-1">
               <Link to="/login">
@@ -56,15 +56,14 @@ export function StickyNavbar() {
                 </Button>
               </Link>
               <Link to="/signup">
-              <Button
-                variant="gradient"
-                size="sm"
-                className="hidden lg:inline-block"
-              >
-                <span>Sign Up</span>
-              </Button>
+                <Button
+                  variant="gradient"
+                  size="sm"
+                  className="hidden lg:inline-block"
+                >
+                  <span>Sign Up</span>
+                </Button>
               </Link>
-             
             </div>
             <IconButton
               variant="text"

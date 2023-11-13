@@ -1,6 +1,6 @@
-import { StickyNavbar } from "./components/mt/StickyNav";
-import PAGE_LIST from "./routes";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { StickyNavbar } from './components/mt/StickyNav';
+import PAGE_LIST from './routes';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 const AppRoute = () => {
   return (
     <>
@@ -11,9 +11,8 @@ const AppRoute = () => {
             <Route
               path={path}
               element={
-              <div className="max-w-screen-xl w-[100%]">
-                {children}
-              </div>}
+                <div className="max-w-screen-xl w-[100%]">{children}</div>
+              }
             />
           ))}
         </Routes>
