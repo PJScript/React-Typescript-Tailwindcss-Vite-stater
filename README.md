@@ -4,6 +4,7 @@
 2. Typescript
 3. Vite
 4. Material Tailwind
+5. Tailwind
 
 
 ## 기본내용
@@ -24,6 +25,12 @@
 2. screens => 반응형 브레이크 포인트
 3. colors => 사전 정의할 색상값 입력
 
+
+## Api 모듈화
+1. src/apis/api 아래에 각 api 성격별 폴더 생성 후 예시 처럼 작성
+2. api 관련 모든 타입은 src/apis/api 이하 types.ts 파일에 작성
+3. src/apis/services 폴더에는 요청 후 받은 데이터를 가공하는 로직을 작성
+4. src/apis/utils 폴더에는 api 가공 등을 위해 사용할 유틸 함수 작성 
 
 ## 코드 품질
 > husky로 commit전에 코드 품질 검사 수행
