@@ -4,6 +4,7 @@ import { ApiErrorBoundary } from '../components/error/ApiErrorBoundary';
 const Home = (): JSX.Element => {
   console.log('push test');
   console.log('push test 2');
+  console.log('push test 3');
   // if (isLoading) {
   //   return <div>LOADING...</div>;
   // }
