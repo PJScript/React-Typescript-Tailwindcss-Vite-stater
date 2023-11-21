@@ -2,6 +2,7 @@ import UserList from '../components/UserList';
 import { ApiErrorBoundary } from '../components/error/ApiErrorBoundary';
 
 const Home = (): JSX.Element => {
+  console.log('push test');
   // if (isLoading) {
   //   return <div>LOADING...</div>;
   // }
