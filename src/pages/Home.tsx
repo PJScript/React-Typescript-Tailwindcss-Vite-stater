@@ -6,6 +6,7 @@ const Home = (): JSX.Element => {
   console.log('push test 2');
   console.log('push test 3');
   console.log('push test 4');
+  console.log('push test 5');
   // if (isLoading) {
   //   return <div>LOADING...</div>;
   // }
