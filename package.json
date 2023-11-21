@@ -10,7 +10,9 @@
     "postinstall": "husky install",
     "format": "prettier --cache --write .",
     "preview": "vite preview",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "ts-check": "tsc --noEmit",
+    "lint-stage": "lint-staged"
   },
   "dependencies": {
     "@material-tailwind/react": "^2.1.4",
