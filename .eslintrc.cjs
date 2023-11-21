@@ -9,7 +9,14 @@ module.exports = {
   },
 
   plugins: ['react', '@typescript-eslint'],
-  extends: ['eslint:recommended', 'plugin:react/recommended', 'airbnb', 'plugin:@typescript-eslint/recommended', 'plugin:prettier/recommended'],
+  extends: [
+    'eslint:recommended',
+    'plugin:react/recommended',
+    'airbnb',
+    'plugin:@typescript-eslint/recommended',
+    'plugin:prettier/recommended',
+    'eslint-config-prettier',
+  ],
   env: {
     browser: true,
     es2021: true,

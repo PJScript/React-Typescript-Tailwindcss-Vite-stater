@@ -3,8 +3,6 @@ import StickyNavbar from './components/mt/StickyNav';
 import PAGE_LIST from './routes';
 
 const AppRoute: () => JSX.Element = () => {
-  console.log('test');
-
   return (
     <>
       <StickyNavbar />
